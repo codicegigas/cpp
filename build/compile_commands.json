@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/gus/code/cpp/build/hola_mundo",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/hola_mundo.dir/hola_mundo.cpp.o -c /home/gus/code/cpp/hola_mundo/hola_mundo.cpp",
+  "file": "/home/gus/code/cpp/hola_mundo/hola_mundo.cpp"
+},
+{
+  "directory": "/home/gus/code/cpp/build/conversor_temp",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/conversor_temp.dir/conversor.cpp.o -c /home/gus/code/cpp/conversor_temp/conversor.cpp",
+  "file": "/home/gus/code/cpp/conversor_temp/conversor.cpp"
+},
+{
+  "directory": "/home/gus/code/cpp/build/suma_vectores",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/suma_vectores.dir/suma.cpp.o -c /home/gus/code/cpp/suma_vectores/suma.cpp",
+  "file": "/home/gus/code/cpp/suma_vectores/suma.cpp"
+},
+{
+  "directory": "/home/gus/code/cpp/build/opencv_test",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4 -g -std=gnu++17 -o CMakeFiles/opencv_test.dir/cv_test.cpp.o -c /home/gus/code/cpp/opencv_test/cv_test.cpp",
+  "file": "/home/gus/code/cpp/opencv_test/cv_test.cpp"
+}
+]
