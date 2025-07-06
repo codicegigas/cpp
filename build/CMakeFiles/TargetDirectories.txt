@@ -12,3 +12,9 @@
 /home/gus/code/cpp/build/opencv_test/CMakeFiles/opencv_test.dir
 /home/gus/code/cpp/build/opencv_test/CMakeFiles/edit_cache.dir
 /home/gus/code/cpp/build/opencv_test/CMakeFiles/rebuild_cache.dir
+/home/gus/code/cpp/build/cuadrado_std/CMakeFiles/cuadrado_std.dir
+/home/gus/code/cpp/build/cuadrado_std/CMakeFiles/edit_cache.dir
+/home/gus/code/cpp/build/cuadrado_std/CMakeFiles/rebuild_cache.dir
+/home/gus/code/cpp/build/num_complejo/CMakeFiles/num_complejo.dir
+/home/gus/code/cpp/build/num_complejo/CMakeFiles/edit_cache.dir
+/home/gus/code/cpp/build/num_complejo/CMakeFiles/rebuild_cache.dir

@@ -168,6 +168,32 @@ opencv_test/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_test/CMakeFiles/opencv_test.dir/build.make opencv_test/CMakeFiles/opencv_test.dir/build
 .PHONY : opencv_test/fast
 
+#=============================================================================
+# Target rules for targets named cuadrado_std
+
+# Build rule for target.
+cuadrado_std: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cuadrado_std
+.PHONY : cuadrado_std
+
+# fast build rule for target.
+cuadrado_std/fast:
+	$(MAKE) $(MAKESILENT) -f cuadrado_std/CMakeFiles/cuadrado_std.dir/build.make cuadrado_std/CMakeFiles/cuadrado_std.dir/build
+.PHONY : cuadrado_std/fast
+
+#=============================================================================
+# Target rules for targets named num_complejo
+
+# Build rule for target.
+num_complejo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 num_complejo
+.PHONY : num_complejo
+
+# fast build rule for target.
+num_complejo/fast:
+	$(MAKE) $(MAKESILENT) -f num_complejo/CMakeFiles/num_complejo.dir/build.make num_complejo/CMakeFiles/num_complejo.dir/build
+.PHONY : num_complejo/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -177,7 +203,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... conversor_temp"
+	@echo "... cuadrado_std"
 	@echo "... hola_mundo"
+	@echo "... num_complejo"
 	@echo "... opencv_test"
 	@echo "... suma_vectores"
 .PHONY : help

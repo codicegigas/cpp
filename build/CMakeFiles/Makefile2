@@ -67,6 +67,8 @@ all: hola_mundo/all
 all: conversor_temp/all
 all: suma_vectores/all
 all: opencv_test/all
+all: cuadrado_std/all
+all: num_complejo/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +76,8 @@ preinstall: hola_mundo/preinstall
 preinstall: conversor_temp/preinstall
 preinstall: suma_vectores/preinstall
 preinstall: opencv_test/preinstall
+preinstall: cuadrado_std/preinstall
+preinstall: num_complejo/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -81,6 +85,8 @@ clean: hola_mundo/clean
 clean: conversor_temp/clean
 clean: suma_vectores/clean
 clean: opencv_test/clean
+clean: cuadrado_std/clean
+clean: num_complejo/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +105,21 @@ conversor_temp/clean: conversor_temp/CMakeFiles/conversor_temp.dir/clean
 .PHONY : conversor_temp/clean
 
 #=============================================================================
+# Directory level rules for directory cuadrado_std
+
+# Recursive "all" directory target.
+cuadrado_std/all: cuadrado_std/CMakeFiles/cuadrado_std.dir/all
+.PHONY : cuadrado_std/all
+
+# Recursive "preinstall" directory target.
+cuadrado_std/preinstall:
+.PHONY : cuadrado_std/preinstall
+
+# Recursive "clean" directory target.
+cuadrado_std/clean: cuadrado_std/CMakeFiles/cuadrado_std.dir/clean
+.PHONY : cuadrado_std/clean
+
+#=============================================================================
 # Directory level rules for directory hola_mundo
 
 # Recursive "all" directory target.
@@ -112,6 +133,21 @@ hola_mundo/preinstall:
 # Recursive "clean" directory target.
 hola_mundo/clean: hola_mundo/CMakeFiles/hola_mundo.dir/clean
 .PHONY : hola_mundo/clean
+
+#=============================================================================
+# Directory level rules for directory num_complejo
+
+# Recursive "all" directory target.
+num_complejo/all: num_complejo/CMakeFiles/num_complejo.dir/all
+.PHONY : num_complejo/all
+
+# Recursive "preinstall" directory target.
+num_complejo/preinstall:
+.PHONY : num_complejo/preinstall
+
+# Recursive "clean" directory target.
+num_complejo/clean: num_complejo/CMakeFiles/num_complejo.dir/clean
+.PHONY : num_complejo/clean
 
 #=============================================================================
 # Directory level rules for directory opencv_test
@@ -150,7 +186,7 @@ suma_vectores/clean: suma_vectores/CMakeFiles/suma_vectores.dir/clean
 hola_mundo/CMakeFiles/hola_mundo.dir/all:
 	$(MAKE) $(MAKESILENT) -f hola_mundo/CMakeFiles/hola_mundo.dir/build.make hola_mundo/CMakeFiles/hola_mundo.dir/depend
 	$(MAKE) $(MAKESILENT) -f hola_mundo/CMakeFiles/hola_mundo.dir/build.make hola_mundo/CMakeFiles/hola_mundo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=3,4 "Built target hola_mundo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=5,6 "Built target hola_mundo"
 .PHONY : hola_mundo/CMakeFiles/hola_mundo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -202,7 +238,7 @@ conversor_temp/CMakeFiles/conversor_temp.dir/clean:
 suma_vectores/CMakeFiles/suma_vectores.dir/all:
 	$(MAKE) $(MAKESILENT) -f suma_vectores/CMakeFiles/suma_vectores.dir/build.make suma_vectores/CMakeFiles/suma_vectores.dir/depend
 	$(MAKE) $(MAKESILENT) -f suma_vectores/CMakeFiles/suma_vectores.dir/build.make suma_vectores/CMakeFiles/suma_vectores.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=7,8 "Built target suma_vectores"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=11,12 "Built target suma_vectores"
 .PHONY : suma_vectores/CMakeFiles/suma_vectores.dir/all
 
 # Build rule for subdir invocation for target.
@@ -228,7 +264,7 @@ suma_vectores/CMakeFiles/suma_vectores.dir/clean:
 opencv_test/CMakeFiles/opencv_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_test/CMakeFiles/opencv_test.dir/build.make opencv_test/CMakeFiles/opencv_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_test/CMakeFiles/opencv_test.dir/build.make opencv_test/CMakeFiles/opencv_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=5,6 "Built target opencv_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=9,10 "Built target opencv_test"
 .PHONY : opencv_test/CMakeFiles/opencv_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,6 +282,58 @@ opencv_test: opencv_test/CMakeFiles/opencv_test.dir/rule
 opencv_test/CMakeFiles/opencv_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f opencv_test/CMakeFiles/opencv_test.dir/build.make opencv_test/CMakeFiles/opencv_test.dir/clean
 .PHONY : opencv_test/CMakeFiles/opencv_test.dir/clean
+
+#=============================================================================
+# Target rules for target cuadrado_std/CMakeFiles/cuadrado_std.dir
+
+# All Build rule for target.
+cuadrado_std/CMakeFiles/cuadrado_std.dir/all:
+	$(MAKE) $(MAKESILENT) -f cuadrado_std/CMakeFiles/cuadrado_std.dir/build.make cuadrado_std/CMakeFiles/cuadrado_std.dir/depend
+	$(MAKE) $(MAKESILENT) -f cuadrado_std/CMakeFiles/cuadrado_std.dir/build.make cuadrado_std/CMakeFiles/cuadrado_std.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=3,4 "Built target cuadrado_std"
+.PHONY : cuadrado_std/CMakeFiles/cuadrado_std.dir/all
+
+# Build rule for subdir invocation for target.
+cuadrado_std/CMakeFiles/cuadrado_std.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gus/code/cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cuadrado_std/CMakeFiles/cuadrado_std.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gus/code/cpp/build/CMakeFiles 0
+.PHONY : cuadrado_std/CMakeFiles/cuadrado_std.dir/rule
+
+# Convenience name for target.
+cuadrado_std: cuadrado_std/CMakeFiles/cuadrado_std.dir/rule
+.PHONY : cuadrado_std
+
+# clean rule for target.
+cuadrado_std/CMakeFiles/cuadrado_std.dir/clean:
+	$(MAKE) $(MAKESILENT) -f cuadrado_std/CMakeFiles/cuadrado_std.dir/build.make cuadrado_std/CMakeFiles/cuadrado_std.dir/clean
+.PHONY : cuadrado_std/CMakeFiles/cuadrado_std.dir/clean
+
+#=============================================================================
+# Target rules for target num_complejo/CMakeFiles/num_complejo.dir
+
+# All Build rule for target.
+num_complejo/CMakeFiles/num_complejo.dir/all:
+	$(MAKE) $(MAKESILENT) -f num_complejo/CMakeFiles/num_complejo.dir/build.make num_complejo/CMakeFiles/num_complejo.dir/depend
+	$(MAKE) $(MAKESILENT) -f num_complejo/CMakeFiles/num_complejo.dir/build.make num_complejo/CMakeFiles/num_complejo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gus/code/cpp/build/CMakeFiles --progress-num=7,8 "Built target num_complejo"
+.PHONY : num_complejo/CMakeFiles/num_complejo.dir/all
+
+# Build rule for subdir invocation for target.
+num_complejo/CMakeFiles/num_complejo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gus/code/cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 num_complejo/CMakeFiles/num_complejo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gus/code/cpp/build/CMakeFiles 0
+.PHONY : num_complejo/CMakeFiles/num_complejo.dir/rule
+
+# Convenience name for target.
+num_complejo: num_complejo/CMakeFiles/num_complejo.dir/rule
+.PHONY : num_complejo
+
+# clean rule for target.
+num_complejo/CMakeFiles/num_complejo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f num_complejo/CMakeFiles/num_complejo.dir/build.make num_complejo/CMakeFiles/num_complejo.dir/clean
+.PHONY : num_complejo/CMakeFiles/num_complejo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

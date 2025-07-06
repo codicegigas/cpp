@@ -18,5 +18,15 @@
   "directory": "/home/gus/code/cpp/build/opencv_test",
   "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4 -g -std=gnu++17 -o CMakeFiles/opencv_test.dir/cv_test.cpp.o -c /home/gus/code/cpp/opencv_test/cv_test.cpp",
   "file": "/home/gus/code/cpp/opencv_test/cv_test.cpp"
+},
+{
+  "directory": "/home/gus/code/cpp/build/cuadrado_std",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/cuadrado_std.dir/cuadrado_std.cpp.o -c /home/gus/code/cpp/cuadrado_std/cuadrado_std.cpp",
+  "file": "/home/gus/code/cpp/cuadrado_std/cuadrado_std.cpp"
+},
+{
+  "directory": "/home/gus/code/cpp/build/num_complejo",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/num_complejo.dir/num_complejo.cpp.o -c /home/gus/code/cpp/num_complejo/num_complejo.cpp",
+  "file": "/home/gus/code/cpp/num_complejo/num_complejo.cpp"
 }
 ]

@@ -12,7 +12,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../conversor_temp/CMakeLists.txt"
+  "../cuadrado_std/CMakeLists.txt"
   "../hola_mundo/CMakeLists.txt"
+  "../num_complejo/CMakeLists.txt"
   "../opencv_test/CMakeLists.txt"
   "../suma_vectores/CMakeLists.txt"
   "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
@@ -60,6 +62,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "conversor_temp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "suma_vectores/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "cuadrado_std/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "num_complejo/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -68,4 +72,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "conversor_temp/CMakeFiles/conversor_temp.dir/DependInfo.cmake"
   "suma_vectores/CMakeFiles/suma_vectores.dir/DependInfo.cmake"
   "opencv_test/CMakeFiles/opencv_test.dir/DependInfo.cmake"
+  "cuadrado_std/CMakeFiles/cuadrado_std.dir/DependInfo.cmake"
+  "num_complejo/CMakeFiles/num_complejo.dir/DependInfo.cmake"
   )

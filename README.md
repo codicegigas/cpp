@@ -1,3 +1,5 @@
 # C ++
 
-Proyectos de practica personales de practica que he realizado con este lenguaje.
+Esta sección contiene el codigo fuente de mis practicas en este lenguaje.
+
+FPGA
