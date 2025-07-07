@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/suma_vectores.dir/suma.cpp.o -o suma_vectores 

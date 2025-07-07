@@ -2,3 +2,5 @@ build/
 CMakePresets.json
 cpp.code-workspace
 .vscode/
+cpp.code-workspace
+.gitignore
