@@ -1,1 +1,0 @@
-add_executable(cuadrado_std cuadrado_std.cpp)

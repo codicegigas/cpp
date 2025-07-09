@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+project(cpp_basics)
+
+IF(EXISTS ${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+    include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+    conan_basic_setup()
+ENDIF()
+
+ADD_EXECUTABLE( add_numbersio src/add_numbersio.cpp )
+ADD_EXECUTABLE( conversor src/conversor.cpp )
+ADD_EXECUTABLE( cuadrado_std src/cuadrado_std.cpp )
+ADD_EXECUTABLE( data_types src/data_types.cpp )
+ADD_EXECUTABLE( hola_mundo src/hola_mundo.cpp )
+ADD_EXECUTABLE( inpu_cin src/input_cin.cpp )
+ADD_EXECUTABLE( num_complejo src/num_complejo.cpp )
+ADD_EXECUTABLE( rectangle src/rectangle.cpp )
+ADD_EXECUTABLE( suma src/suma.cpp )
+ADD_EXECUTABLE( suma_functional src/suma_functional.cpp )
+ADD_EXECUTABLE( suma_decltype src/suma_decltype.cpp )
